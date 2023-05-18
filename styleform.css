@@ -1,0 +1,172 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+*{
+    background-color: rgb(176, 172, 176);
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    width: fit-content;
+   margin-left: 35%;
+   padding: 15px;
+
+
+}
+#edu{
+    margin-top: 10vh;
+    font-size:30px;
+    color: black;
+}
+#edu-select{
+    margin-top: 10vh;
+    padding: 5px;
+    font-size:20px;
+    color: black;
+    padding: 10px;
+
+
+}
+#phone{
+    margin-top: 10vh;
+    font-size:30px;
+    color: black;
+
+}
+#phoneno{
+    margin-top: 5vh;
+    padding: 10px;
+    font-size:20px;
+    color: black;
+    padding: 10px;
+
+}
+#ag{
+    margin-top: 10vh;
+    font-size:30px;
+    color: black;
+
+}
+#age{
+    margin-top: 5vh;
+    padding: 10px;
+    font-size:20px;
+    color: black;
+    padding: 10px;
+
+
+}
+.radio{
+    margin-top: 10vh;
+}
+#gen{
+    
+    font-size:30px;
+    color: black;
+
+
+}
+.gend{
+    
+    font-size:30px;
+    color: black;
+
+}
+#ema{
+    margin-top: 10vh;
+   
+
+    font-size:30px;
+    color: black;
+
+}
+#email{
+    margin-top: 5vh;
+    padding: 10px;
+    font-size:20px;
+    color: black;
+    padding: 10px;
+
+
+}
+#password{
+    margin-top: 10vh;
+   
+
+    font-size:30px;
+    color: black;
+
+
+}
+#pass{
+    margin-top: 5vh;
+    padding: 10px;
+    font-size:20px;
+    color: black;
+    padding: 10px;
+
+
+    
+
+}
+#cpassword{
+    margin-top: 10vh;
+   
+
+    font-size:30px;
+    color: black;
+
+
+}
+#cpass{
+    margin-top: 5vh;
+    padding: 10px;
+    font-size:20px;
+    color: black;
+    padding: 10px;
+
+
+    
+
+}
+#naam{
+    margin-top: 10vh;
+   
+
+    font-size:30px;
+    color: black;
+
+
+
+}
+#name{
+    margin-top: 5vh;
+    padding: 10px;
+    font-size:20px;
+    color: black;
+    padding: 10px;
+
+}
+#seher{
+    margin-top: 10vh;
+   
+
+    font-size:30px;
+    color: black;
+
+
+
+}
+#city{
+    margin-top: 5vh;
+    padding: 10px;
+    font-size:20px;
+    color: black;
+    padding: 10px;
+
+}

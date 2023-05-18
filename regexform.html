@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleform.css">
+    <script src="form. js"></script>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <div class="container">
+        <form onsubmit="return validation()">
+            <label for="edu-select" id="edu">Choose educational qualification:</label>
+
+            <select name="education" id="edu-select">
+                <option value="choose" id="choose">Choose educational qualification </option>
+                <option value="btech">Btech</option>
+                <option value="Mtech">Mtech</option>
+                <option value="Bsc">Bsc</option>
+                <option value="arts">Arts</option>
+                <option value="bcom">Bcom</option>
+                <option value="barch">Barch</option>
+            </select>
+            <label for="phoneno" id="phone">Mobile no:</label>
+
+            <input type="tel" id="phoneno" name="phoneno">
+            <label for="age" id="ag">Enter your age:</label>
+
+            <input type="number" id="age" name="age"
+                min="10" max="100">
+
+               <div class="radio">
+                <fieldset>
+                    <legend id="gen">Select your gender </legend>
+                
+                    <div>
+                      <input type="radio" id="male" name="gender" value="male">
+                      <label for="male" class="gend">MALE</label>
+                    </div>
+                
+                    <div>
+                      <input type="radio" id="female" name="gender" value="female">
+                      <label for="female" class="gend">FEMALE</label>
+                    </div>
+                
+                    <div>
+                      <input type="radio" id="others" name="gender" value="female">
+                      <label for="others" class="gend">OTHERS</label>
+                    </div>
+                </fieldset>
+               </div>
+               <label for="email" id="ema">Enter your Email:</label>
+
+                <input type="email" id="email">
+                <label for="pass" id="password">Enter password:</label>
+                <input type="password" id="pass" name="password">
+                <label for="cpass" id="cpassword">Confirm password:</label>
+                <input type="password" id="cpass" name="cpassword">
+                <label for="name" id="naam">Enter your name: </label>
+                <input type="text" name="name" id="name" required>
+                <label for="city" id="seher">Enter your City: </label>
+                <input type="text" name="city" id="city" required>
+                       
+                       
+                
+
+
+            
+            <input type="submit" name="" class="btn">
+        </form>
+    </div>
+
+</body>
+</html>
