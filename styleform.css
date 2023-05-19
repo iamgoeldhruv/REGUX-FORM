@@ -170,3 +170,16 @@ h1{
     padding: 10px;
 
 }
+.btn{
+    margin-top:10vh;
+    padding: 10px 20px 10px 20px;
+    background-color: aqua;
+    color: black;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.error{
+    color: red;
+    margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
