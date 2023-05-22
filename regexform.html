@@ -13,7 +13,7 @@
 <body>
     <h1>REGISTRATION FORM</h1>
     <div class="container">
-        <form onsubmit="return validation()">
+        <form  oninput="return validation()">
             <label for="edu-select" id="edu">Choose educational qualification:</label>
 
             <select name="education" id="edu-select">
@@ -27,7 +27,7 @@
             </select>
             <label for="phoneno" id="phone">Mobile no:</label>
 
-            <input type="tel" id="phoneno" name="phoneno">
+            <input type="tel" id="phoneno" name="phoneno" >
             <span id="phoneerror" class="error"></span>
             <label for="age" id="ag">Enter your age:</label>
 

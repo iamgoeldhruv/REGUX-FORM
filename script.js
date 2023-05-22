@@ -10,6 +10,7 @@ function validation(){
     let emailcheck1=/^([a-z-_$\+&0-9]){5,30}@\w+\.\w+$/
     let emailcheck2=/^[a-z]{2,15}_\w\d?@\w+\.iitr\.ac\.in$/
     let passcheck=/(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/gm
+    
     if(phonecheck.test(phone))
     {
         document.getElementById("phoneerror").innerHTML=" ";
@@ -60,5 +61,7 @@ function validation(){
         return false;
 
     }
+    
+   
    
 }
